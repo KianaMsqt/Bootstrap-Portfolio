@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
 .navbar-brand .border {
     border-color: var(--white) !important;
     border-width: 3px !important;
@@ -63,4 +67,9 @@
     height: 100%;
     background-color: rgba( 0,0,0, .7 );
     z-index: 0;
+}
+
+/* Skills progressbar customize color */
+.progress-bar {
+    background-color: var(--colored) !important;
 }
