@@ -1,0 +1,37 @@
+:root {
+    --black: #0c1223;
+    --white: #fefcff;
+    --colored: #a2304e; 
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand .border {
+    border-color: var(--white) !important;
+    border-width: 3px !important;
+}
+
+/* Interactive animation for navigation items */
+.nav-link {
+    position: relative;
+}
+
+.nav-link:after {
+    background: var(--white);
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    margin-top: 5px;
+    transition: .2s;
+}
+
+.nav-link:hover:after {
+    width: 20px;
+    left: 10%;
+}
