@@ -16,7 +16,9 @@ To see different parts of the page you can click on links and it will scroll up 
 
 To see a live demo please visit: https://kianamsqt.github.io/Bootstrap-Portfolio/ .
 
-Screenshot will be added here.
+The following image shows the web application's appearance and functionality:
+
+![Bootstrap Portfolio demo](./images/Screenshot.png)
 ## Credits
 
 N/A
